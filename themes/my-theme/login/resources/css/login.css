@@ -1,0 +1,286 @@
+/* Stili di base */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1660; /* Sfondo blu */
+    overflow-y: auto; /* Consenti solo lo scroll verticale */
+    overflow-x: hidden;
+}
+
+.body-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1660; /* Sfondo blu */
+    overflow-y: auto; /* Consenti solo lo scroll verticale */
+    overflow-x: hidden;
+}
+
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.register-logo {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.login-container {
+    margin-top: 70px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+.form-container {
+    height: fit-content ;
+    width: 250px;
+}
+
+.label-login {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Testo in grassetto */
+}
+.label-register {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Testo in grassetto */
+}
+
+.input-register {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 4px; /* Bordi più arrotondati */
+    border-width: 1px; /* Spessore del bordo */
+    border-style: solid; /* Tipo di bordo */
+}
+
+.input-login {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border-radius: 4px; /* Bordi più arrotondati */
+    border-width: 1px; /* Spessore del bordo */
+    border-style: solid; /* Tipo di bordo */
+}
+
+.button-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A1660; /* Colore del pulsante */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.button-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A1660; /* Colore del pulsante */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.forgot-password,
+.create-account {
+    margin-top: 5px;
+    color: #1A1660;
+    font-size: 16px;
+}
+
+.forgot-password a,
+.create-account a {
+    text-decoration: underline; /* Sottolineato */
+    color: #1A1660; /* Colore del link */
+    cursor: pointer;
+}
+
+.create-account {
+    color: #000; /* Colore del testo nero */
+}
+
+.register-container {
+    margin-top: 75px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo-forgot-password {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.forgot-password-container {
+    height: 430px;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 260px;
+    text-align: center;
+}
+
+.label-forgot-password {
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold; /* Testo in grassetto */
+}
+
+.h2-forgot-password {
+    font-weight: bold; /* Testo in grassetto */
+}
+
+.p-forgot-password {
+    margin-bottom: 40px;
+}
+
+.input-forgot-password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 4px; /* Bordi più arrotondati */
+    border: 1px solid #060606; /* Bordo bianco */
+}
+
+.button-forgot-password {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A1660; /* Colore del pulsante (blu scuro) */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.a-forgot-password {
+    text-decoration: none;
+    color: #1A1660; /* Colore del link (blu) */
+    border-bottom: 1px solid #1A1660; /* Linea sottostante */
+}
+
+.a-forgot-password:hover {
+    color: #1A1660; /* Cambia colore al passaggio del mouse (blu scuro) */
+    border-bottom-color: #1A1660;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.social-button img {
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+}
+.visibility {
+    position: relative;
+    left: 100px;
+    top: 55px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.54;
+    border: none;
+    z-index: 100;
+}
+
+.social-providers{
+    display: grid;
+}
+
+
+
+/* Media Queries per la versione mobile */
+@media screen and (max-width: 600px) {
+    body {
+        align-items: stretch;
+        overflow-y: scroll;
+        height: fit-content;
+    }
+    .body-container {
+        height: 130vh;
+        align-content: stretch;
+        overflow-y: scroll;
+    }
+
+    .login-container {
+        height: fit-content;
+        margin: 100px auto; /* Centra il contenitore */
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .register-container{
+        width: 100%;
+        max-width: 300px; /* Ad esempio, puoi limitare la larghezza su schermi più piccoli */
+        margin: 108px auto; /* Centra il contenitore */
+    }
+
+    .register-logo {
+        text-align: center;
+    }
+
+    .forgot-password-container {
+        max-width: 300px;
+        margin-bottom: 115px;
+    }
+
+    .logo-forgot-password {
+        text-align: center;
+    }
+
+    /* Aggiungi altre regole CSS specifiche per la versione mobile qui */
+}
