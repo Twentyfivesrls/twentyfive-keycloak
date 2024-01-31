@@ -6,6 +6,19 @@
 </#if>
 
 <#import "template.ftl" as layout>
+<script>
+    function togglePassword() {
+        var x = document.getElementById("password");
+        var v = document.getElementById("vi");
+        if (x.type === "password") {
+            x.type = "text";
+            v.src = "${url.resourcesPath}/img/eye.png";
+        } else {
+            x.type = "password";
+            v.src = "${url.resourcesPath}/img/eye-off.png";
+        }
+    }
+</script>
 <@layout.registrationLayout; section>
     <#if section = "header">
     <#elseif section = "form">
@@ -51,6 +64,9 @@
 
             <#if passwordRequired>
                 <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('password',properties.kcFormGroupErrorClass!)}">
+                    <div>
+                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                    </div>
                     <div class="label-register">
                         <label for="password" class="${properties.kcLabelClass!}">${msg("password")}</label>
                     </div>
@@ -58,6 +74,9 @@
                 </div>
 
                 <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('password-confirm',properties.kcFormGroupErrorClass!)}">
+                    <div>
+                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                    </div>
                     <div class="label-register">
                         <label for="password-confirm" class="${properties.kcLabelClass!}">${msg("passwordConfirm")}</label>
                     </div>

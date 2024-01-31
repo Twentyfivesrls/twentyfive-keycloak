@@ -34,28 +34,28 @@
                 <form id="kc-form-login" class="form-container" onsubmit="return true;" action="${url.loginAction}" method="post">
                     <h2>Login</h2>
                         <label class="label-login" for="email">Email</label>
-                    <input class="input-login" type="text" id="username" placeholder="${msg("username")}" name="username" tabindex="1">
+                    <input class="input-login" type="text" id="username" placeholder="${msg("Email")}" name="username" tabindex="1">
                     <div>
                         <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
                         <label class="label-login" for="password">Password</label>
                         <input class="input-login" type="password" id="password" placeholder="${msg("password")}" name="password" tabindex="2">
-                       <div class="forgot-password">
+                       <#--<div class="forgot-password">
                     <p>
                         <a href="${(url.loginResetCredentialsUrl)}" id="forgot-password-link">Hai dimenticato la password?</a>
                     </p>
-                </div>
+                </div>-->
                         <button type="submit" class="button-login">Accedi</button>
                     <p class="create-account">
-                    <div id="kc-registration">
+                    <div id="kc-registration" style="width: max-content">
                         Devi ancora registrarti? <a href="${url.registrationUrl}" id="create-account-link">Crea un account</a>
                     </div>
                     </p>
                     <!-- Card per i social buttons -->
-                    <div class="card-social">
-                        <p class="text-center">Oppure accedi con:</p>
+                    <div class="card-social" >
                         <div class="social-providers">
                             <#if social.providers??>
+                                <p class="text-center">Oppure accedi con:</p>
                                 <#list social.providers as p>
                                     <#if p.alias == "google">
                                         <#if p.loginUrl??>
