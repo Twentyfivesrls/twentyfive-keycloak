@@ -137,7 +137,7 @@
                 <div id="kc-form-options" class="${properties.kcFormOptionsClass!}">
                     <p class="create-account">
                     <div id="kc-registration" style="display: inline-grid">
-                        Sei già registrato? <a style="color: #525252" href="${url.loginUrl}" style="color: #525252" id="create-account-link">Torna al login</a>
+                        Sei già registrato? <a style="color: #525252" href="${url.loginUrl}" style="color: #1A1660" id="create-account-link">Torna al login</a>
                     </div>
                 </div>
             </div>

@@ -42,7 +42,7 @@
                             </span>
                     </#if>
                     <div>
-                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                        <label class="visibility-login" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
                         <label class="label-login" for="password">Password</label>
                         <input class="input-login" type="password" id="password" placeholder="${msg("password")}" name="password" tabindex="2"autofocus autocomplete="off"
