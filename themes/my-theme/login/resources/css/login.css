@@ -1,6 +1,6 @@
 /* Stili di base */
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #1A1660; /* Sfondo blu */
+    font-family: 'Montserrat', sans-serif;
     overflow-y: auto; /* Consenti solo lo scroll verticale */
     overflow-x: hidden;
 }
@@ -77,6 +78,7 @@ body {
     border-radius: 4px; /* Bordi più arrotondati */
     border-width: 1px; /* Spessore del bordo */
     border-style: solid; /* Tipo di bordo */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .input-login {
@@ -87,6 +89,7 @@ body {
     border-radius: 4px; /* Bordi più arrotondati */
     border-width: 1px; /* Spessore del bordo */
     border-style: solid; /* Tipo di bordo */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button-login {
@@ -100,6 +103,7 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button-register {
@@ -112,6 +116,7 @@ body {
     cursor: pointer;
     margin-bottom: 20px;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .forgot-password,

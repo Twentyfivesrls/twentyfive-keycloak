@@ -128,7 +128,7 @@
                 </div>
             </#if>
 
-            <p><strong>Campi obbligatori (*)</strong></p>
+            <p style="font-size: 12px ">Campi obbligatori (*)</p>
 
             <div class="${properties.kcFormGroupClass!}">
                 <div id="kc-form-buttons">
