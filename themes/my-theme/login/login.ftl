@@ -41,12 +41,19 @@
                                     ${kcSanitize(messagesPerField.getFirstError('username','password'))?no_esc}
                             </span>
                     </#if>
-                    <div>
-                        <label class="visibility-login" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                    <label class="label-login" for="password" >${msg("password")}</label>
+                    <div style="display: flex">
+                        <input type="password" id="password" class="input-register" placeholder="${msg("Password*")}" name="password" autocomplete="new-password"
+                               aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
+
+                        <label class="visibility" id="v" onclick="togglePassword()">
+                            <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
-                        <label class="label-login" for="password">Password</label>
-                        <input class="input-login" type="password" id="password" placeholder="${msg("password")}" name="password" tabindex="2"autofocus autocomplete="off"
-                               aria-invalid="<#if messagesPerField.existsError('username', 'password')>true</#if>">
+                    <#if messagesPerField.existsError('password','password-confirm')>
+                        <span id="input-error" class="invalid-input" aria-live="polite">
+                                    ${kcSanitize(messagesPerField.getFirstError('password-confirm'))?no_esc}
+                            </span>
+                    </#if>
 
                         <div class="forgot-password">
                             <#if realm.resetPasswordAllowed>
