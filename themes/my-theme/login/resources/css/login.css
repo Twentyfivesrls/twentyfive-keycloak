@@ -297,7 +297,7 @@ body {
     .register-container{
         width: 100%;
         max-width: 300px; /* Ad esempio, puoi limitare la larghezza su schermi più piccoli */
-        margin: 108px auto; /* Centra il contenitore */
+        margin: 115px 108px auto; /* Centra il contenitore */
     }
 
     .register-logo {
