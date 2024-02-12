@@ -43,7 +43,7 @@
                     </#if>
                     <label class="label-login" for="password" >${msg("password")}</label>
                     <div style="display: flex">
-                        <input type="password" id="password" class="input-register" placeholder="${msg("Password*")}" name="password" autocomplete="new-password"
+                        <input type="password" id="password" class="input-login" placeholder="${msg("Password")}" name="password" autocomplete="new-password"
                                aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
 
                         <label class="visibility" id="v" onclick="togglePassword()">
