@@ -6,6 +6,9 @@
 </#if>
 
 <#import "template.ftl" as layout>
+<#include "resources/css/login.css">
+
+
 <@layout.registrationLayout displayInfo=true; section>
     <#if section = "title">
         ${msg("emailForgotTitle")?no_esc}
