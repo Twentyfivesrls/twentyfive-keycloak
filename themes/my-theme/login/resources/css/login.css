@@ -270,6 +270,71 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.logo-forgot-update {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.update-password-container {
+    height: 470px;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 260px;
+    text-align: center;
+}
+
+.label-update-password {
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold; /* Testo in grassetto */
+}
+
+.h2-update-password {
+    font-size: 32px;
+}
+
+.p-update-password {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.input-update-password {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px; /* Bordi più arrotondati */
+    border: 1px solid #060606; /* Bordo bianco */
+}
+
+.button-update-password {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A1660; /* Colore del pulsante (blu scuro) */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.a-update-password {
+    text-decoration: none;
+    color: #1A1660; /* Colore del link (blu) */
+    border-bottom: 1px solid #1A1660; /* Linea sottostante */
+}
+
+.a-update-password:hover {
+    color: #1A1660; /* Cambia colore al passaggio del mouse (blu scuro) */
+    border-bottom-color: #1A1660;
+}
 
 /* Media Queries per la versione mobile */
 @media screen and (max-width: 600px) {

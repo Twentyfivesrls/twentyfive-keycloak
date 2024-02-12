@@ -11,7 +11,10 @@
         <style type="text/css">
             <#include "resources/css/login.css">
         </style>
-        <title><#nested "title"></title>
+
+        <title>
+            <#nested "title">
+        </title>
 
     </head>
 
@@ -19,8 +22,7 @@
         <#nested "header">
 
                 <#nested "form">
-            </div>
-        </div>
+
     </body>
     </html>
 </#macro>
