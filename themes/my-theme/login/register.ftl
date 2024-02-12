@@ -44,9 +44,9 @@
             <h2 >Registrazione</h2>
             <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('firstName',properties.kcFormGroupErrorClass!)}">
                 <div class="label-register">
-                    <label for="firstName" class="${properties.kcLabelClass!}">${msg("firstName")}</label>
+                    <label for="firstName" class="${properties.kcLabelClass!}">${msg("Nome")}</label>
                 </div>
-                    <input type="text" id="firstName" class="input-register" name="firstName" value="${(register.formData.firstName!'')}" aria-invalid="<#if messagesPerField.existsError('firstName')>true</#if>">
+                    <input type="text" id="firstName" placeholder="${msg("Nome")}" class="input-register" name="firstName" value="${(register.formData.firstName!'')}" aria-invalid="<#if messagesPerField.existsError('firstName')>true</#if>">
                 <#if messagesPerField.existsError('firstName')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('firstName'))?no_esc}
@@ -57,9 +57,9 @@
 
             <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('lastName',properties.kcFormGroupErrorClass!)}">
                 <div class="label-register">
-                    <label for="lastName" class="${properties.kcLabelClass!}">${msg("lastName")}</label>
+                    <label for="lastName" class="${properties.kcLabelClass!}">${msg("Cognome")}</label>
                 </div>
-                    <input type="text" id="lastName" class="input-register" name="lastName" value="${(register.formData.lastName!'')}" aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
+                    <input type="text" id="lastName" class="input-register" placeholder="${msg("Cognome")}" name="lastName" value="${(register.formData.lastName!'')}" aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
                 <#if messagesPerField.existsError('lastName')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('lastName'))?no_esc}
@@ -72,7 +72,7 @@
                 <div class="label-register">
                     <label for="email" class="${properties.kcLabelClass!}">${msg("email")}</label>
                 </div>
-                    <input type="text" id="email" class="input-register" name="email" value="${(register.formData.email!'')}" autocomplete="email" aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
+                    <input type="text" id="email" class="input-register" placeholder="${msg("email")}" name="email" value="${(register.formData.email!'')}" autocomplete="email" aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
                 <#if messagesPerField.existsError('lastName')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('lastName'))?no_esc}
@@ -90,29 +90,28 @@
             </#if>
 
             <#if passwordRequired>
-                <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('password',properties.kcFormGroupErrorClass!)}">
-                    <div>
-                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
-                    </div>
-                    <div class="label-register">
-                        <label for="password" class="${properties.kcLabelClass!}">${msg("password")}</label>
-                    </div>
-                        <input type="password" id="password" class="input-register" name="password" autocomplete="new-password" aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
-                    <#if messagesPerField.existsError('password','password-confirm')>
-                        <span id="input-error" class="invalid-input" aria-live="polite">
+
+                <label for="password" >${msg("password")}</label>
+                <div style="display: flex">
+                    <input type="password" id="password" class="input-register" placeholder="${msg("Password")}" name="password" autocomplete="new-password" aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
+
+                    <label class="visibility-register" id="v" onclick="togglePassword()">
+                        <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                </div>
+                <#if messagesPerField.existsError('password','password-confirm')>
+                    <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('password-confirm'))?no_esc}
                             </span>
-                    </#if>
-                </div>
+                </#if>
+                <div class="${messagesPerField.printIfExists('password-confirm',properties.kcFormGroupErrorClass!)}">
+                    <label for="password-confirm" >${msg("Conferma Password")}</label>
+                    <div style="display: flex">
+                        <input type="password" id="password-confirm" placeholder="${msg("Conferma Password")}" class="input-register" name="password-confirm" aria-invalid="<#if messagesPerField.existsError('password-confirm')>true</#if>">
 
-                <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('password-confirm',properties.kcFormGroupErrorClass!)}">
-                    <div>
-                        <label class="visibility" id="v-confirm" onclick="toggleConfirmPassword()"><img id="vi-confirm" src="${url.resourcesPath}/img/eye-off.png"></label>
+                        <label class="visibility-register" id="v-confirm" onclick="toggleConfirmPassword()">
+                            <img id="vi-confirm" src="${url.resourcesPath}/img/eye-off.png">
+                        </label>
                     </div>
-                    <div class="label-register">
-                        <label for="password-confirm" class="${properties.kcLabelClass!}">${msg("passwordConfirm")}</label>
-                    </div>
-                        <input type="password" id="password-confirm" class="input-register" name="password-confirm" aria-invalid="<#if messagesPerField.existsError('password-confirm')>true</#if>">
                     <#if messagesPerField.existsError('password','password-confirm')>
                         <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('password-confirm'))?no_esc}
