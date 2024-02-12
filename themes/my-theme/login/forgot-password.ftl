@@ -4,17 +4,9 @@
 <#if yourConditionToDetectMobile>
     <#assign isMobile = true>
 </#if>
-
 <#import "template.ftl" as layout>
-<#include "resources/css/login.css">
-
-
 <@layout.registrationLayout displayInfo=true; section>
-    <#if section = "title">
-        ${msg("emailForgotTitle")?no_esc}
-    <#elseif section = "header">
-        ${msg("emailForgotTitle")?no_esc}
-    <#elseif section = "form">
+    <#if section = "form">
         <div class="forgot-password-container">
         <div class="logo-forgot-password">
             <img src="Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" >
