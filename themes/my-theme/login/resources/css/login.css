@@ -239,6 +239,19 @@ body {
     display: grid;
 }
 
+.invalid-input {
+    font-size: 13px;
+    color: red;
+}
+.input-login[aria-invalid="true"] {
+    border-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-register[aria-invalid="true"] {
+    border-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Media Queries per la versione mobile */
