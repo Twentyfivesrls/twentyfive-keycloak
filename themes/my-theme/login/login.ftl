@@ -58,7 +58,7 @@
                         <div class="forgot-password">
                             <#if realm.resetPasswordAllowed>
                                 <p>
-                                    <a href="${(url.loginResetCredentialsUrl)}" id="forgot-password-link">Hai dimenticato la password?</a>
+                                    <a href="${url.loginResetCredentialsUrl}" id="forgot-password-link">Hai dimenticato la password?</a>
                                 </p>
                             </#if>
                         </div>
