@@ -153,7 +153,6 @@ body {
 }
 
 .forgot-password-container {
-    height: 430px;
     margin-top: 10px;
     background-color: #fff;
     padding: 25px;
@@ -200,6 +199,7 @@ body {
     cursor: pointer;
     margin-top: 50px;
     font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .a-forgot-password {
