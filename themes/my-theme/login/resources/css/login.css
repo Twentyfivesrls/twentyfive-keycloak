@@ -353,7 +353,7 @@ body {
 
     .login-container {
         height: fit-content;
-        margin: 100px auto; /* Centra il contenitore */
+        margin: 110px auto; /* Centra il contenitore */
     }
 
     .logo {
@@ -364,7 +364,7 @@ body {
     .register-container{
         width: 100%;
         max-width: 300px; /* Ad esempio, puoi limitare la larghezza su schermi più piccoli */
-        margin: 115px 108px auto; /* Centra il contenitore */
+        margin: 120px 108px auto; /* Centra il contenitore */
     }
 
     .register-logo {
@@ -373,6 +373,7 @@ body {
 
     .forgot-password-container {
         margin-top: 170px;
+        overflow-y: scroll;
     }
 
     .logo-forgot-password {
