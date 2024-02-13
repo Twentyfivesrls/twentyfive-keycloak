@@ -11,7 +11,8 @@
     <#elseif section = "form">
         <div class="forgot-password-container">
         <div class="logo-forgot-password">
-            <img src="Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" >
+            <img src="${url.
+            resourcesPath}/img/Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" rel="icon">
         </div>
         <form id="kc-reset-password-form" class="form reset-password ${properties.kcFormClass!}" action="${url.loginAction}" method="post">
              <h2 class="h2-forgot-password">Reset Password</h2>
