@@ -146,14 +146,14 @@ body {
 
 .logo-forgot-password {
     position: absolute;
-    top: 4rem;
+    top: 3rem;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
 }
 
 .forgot-password-container {
-    margin-top: 10px;
+    margin-bottom: 25px;
     background-color: #fff;
     padding: 25px;
     border-radius: 8px;
