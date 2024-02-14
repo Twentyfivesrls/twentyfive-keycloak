@@ -46,7 +46,8 @@
                 <div class="label-register">
                     <label for="firstName" class="${properties.kcLabelClass!}">${msg("Nome")}</label>
                 </div>
-                    <input type="text" id="firstName" placeholder="${msg("Nome")}" class="input-register" name="firstName" value="${(register.formData.firstName!'')}" aria-invalid="<#if messagesPerField.existsError('firstName')>true</#if>">
+                    <input type="text" id="firstName" placeholder="${msg("Nome")}" class="input-register" name="firstName" value="${(register.formData.firstName!'')}"
+                           aria-invalid="<#if messagesPerField.existsError('firstName')>true</#if>">
                 <#if messagesPerField.existsError('firstName')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('firstName'))?no_esc}
@@ -59,7 +60,8 @@
                 <div class="label-register">
                     <label for="lastName" class="${properties.kcLabelClass!}">${msg("Cognome")}</label>
                 </div>
-                    <input type="text" id="lastName" class="input-register" placeholder="${msg("Cognome")}" name="lastName" value="${(register.formData.lastName!'')}" aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
+                    <input type="text" id="lastName" class="input-register" placeholder="${msg("Cognome")}" name="lastName" value="${(register.formData.lastName!'')}"
+                           aria-invalid="<#if messagesPerField.existsError('lastName')>true</#if>">
                 <#if messagesPerField.existsError('lastName')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('lastName'))?no_esc}
@@ -72,7 +74,8 @@
                 <div class="label-register">
                     <label for="email" class="${properties.kcLabelClass!}">${msg("email*")}</label>
                 </div>
-                    <input type="text" id="email" class="input-register" placeholder="${msg("email")}" name="email" value="${(register.formData.email!'')}" autocomplete="email" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
+                    <input type="text" id="email" class="input-register" placeholder="${msg("email")}" name="email" value="${(register.formData.email!'')}" autocomplete="email"
+                           aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
                 <#if messagesPerField.existsError('email')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('email'))?no_esc}

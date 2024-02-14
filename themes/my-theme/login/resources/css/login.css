@@ -196,7 +196,7 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -364,7 +364,7 @@ body {
     .register-container{
         width: 100%;
         max-width: 300px; /* Ad esempio, puoi limitare la larghezza su schermi più piccoli */
-        margin: 120px 108px auto; /* Centra il contenitore */
+        margin: 135px 108px auto; /* Centra il contenitore */
     }
 
     .register-logo {
