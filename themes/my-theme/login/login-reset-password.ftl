@@ -19,7 +19,7 @@
             <p class="p-forgot-password">Inserisci la mail associata al tuo account e riceverai un link per resettare la tua password</p>
             <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('email',properties.kcFormGroupErrorClass!)}">
                     <label class="label-forgot-password" for="email">Email</label>
-                    <input class="input-forgot-password" type="text" name="username" placeholder="Inserisci la tua email" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
+                    <input class="input-forgot-password" type="text" name="email" placeholder="Inserisci la tua email" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
                 <#if messagesPerField.existsError('email')>
                     <span id="input-error" class="invalid-input" aria-live="polite">
                                     ${kcSanitize(messagesPerField.getFirstError('email'))?no_esc}
