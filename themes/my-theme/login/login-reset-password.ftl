@@ -6,7 +6,7 @@
 </#if>
 
 <#import "template.ftl" as layout>
-<@layout.registrationLayout displayInfo=true displayMessage=!messagesPerField.existsError('username'); section>
+<@layout.registrationLayout displayInfo=true displayMessage=!messagesPerField.existsError('email'); section>
     <#if section = "header">
     <#elseif section = "form">
         <div class="forgot-password-container">
@@ -17,9 +17,14 @@
         <form id="kc-reset-password-form" class="form-container" action="${url.loginAction}" method="post">
              <h2 class="h2-forgot-password">Recupero Password</h2>
             <p class="p-forgot-password">Inserisci la mail associata al tuo account e riceverai un link per resettare la tua password</p>
-            <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon ${properties.kcLabelClass!} <#if usernameEditDisabled??>mdc-text-field--disabled</#if>">
+            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('email',properties.kcFormGroupErrorClass!)}">
                     <label class="label-forgot-password" for="email">Email</label>
-                    <input class="input-forgot-password" type="text" name="username" placeholder="Inserisci la tua email" required>
+                    <input class="input-forgot-password" type="text" name="username" placeholder="Inserisci la tua email" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
+                <#if messagesPerField.existsError('email')>
+                    <span id="input-error" class="invalid-input" aria-live="polite">
+                                    ${kcSanitize(messagesPerField.getFirstError('email'))?no_esc}
+                            </span>
+                </#if>
                 </div>
 
 
