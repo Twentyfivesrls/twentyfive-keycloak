@@ -44,7 +44,7 @@ body {
 }
 
 .login-container {
-    /*margin-top: 70px;*/
+    margin: 155px 108px auto;
     background-color: #fff;
     padding: 10px 20px;
     border-radius: 8px;
@@ -353,7 +353,7 @@ body {
 
     .login-container {
         height: fit-content;
-        margin: 110px auto; /* Centra il contenitore */
+        margin: 115px auto; /* Centra il contenitore */
     }
 
     .logo {
