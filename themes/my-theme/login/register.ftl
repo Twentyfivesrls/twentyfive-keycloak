@@ -72,7 +72,7 @@
 
             <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('email',properties.kcFormGroupErrorClass!)}">
                 <div class="label-register">
-                    <label for="email" class="${properties.kcLabelClass!}">${msg("email*")}</label>
+                    <label for="email" class="${properties.kcLabelClass!}">${msg("Email*")}</label>
                 </div>
                     <input type="text" id="email" class="input-register" placeholder="${msg("email")}" name="email" value="${(register.formData.email!'')}" autocomplete="email"
                            aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
@@ -140,7 +140,7 @@
                 <div id="kc-form-options" class="${properties.kcFormOptionsClass!}">
                     <p class="create-account">
                     <div id="kc-registration" style="display: inline-grid">
-                        Sei già registrato? <a style="color: #525252" href="${url.loginUrl}" style="color: #1A1660" id="create-account-link">Torna al login</a>
+                        Sei già registrato? <a style="color: #1A1660" href="${url.loginUrl}" id="create-account-link">Torna al login</a>
                     </div>
                 </div>
             </div>
