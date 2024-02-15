@@ -49,6 +49,9 @@
     <p>Clicca sul seguente link per reimpostare la tua password:
         <a href="${link}" class="link">${link}</a></p>
 </div>
+    <a href="https://paybolt.it/">https://paybolt.it/</a>
+    <a href="https://www.twentyfive25.it/"> Twentyfive</a>
+    <a href="https://www.twentyfive25.it/">Academy</a>
 </div>
 </body>
 </html>
