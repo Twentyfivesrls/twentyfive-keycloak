@@ -36,7 +36,7 @@
 
             <p class="create-account">
             <div id="kc-registration" style="display: inline-grid">
-                Sei già registrato? <a style="color: #1A1660" href="${url.loginUrl}" style="color: #1A1660" id="create-account-link">Torna al login</a>
+                Sei già registrato? <a style="color: #1A1660" href="${url.loginUrl}" id="create-account-link">Torna al login</a>
             </div>
 
             <div class="clearfix"></div>
