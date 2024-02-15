@@ -20,8 +20,8 @@
         }
         .card-email{
             background-color: #fff;
-            padding: 25px;
-            border-radius: 8px;
+            padding: 10px;
+            margin: 50px 0px 50px;
             text-align: center;
         }
         h2 {
@@ -31,7 +31,8 @@
             color: #666;
         }
         .link {
-            color: #007bff;
+            font-weight: bold;
+            color: #ffffff;
             text-decoration: none;
         }
         .logo {
