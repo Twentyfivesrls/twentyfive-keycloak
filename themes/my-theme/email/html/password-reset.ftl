@@ -38,8 +38,7 @@
 </head>
 <body>
 <div class="container">
-    <img src="${url.
-    resourcesPath}/img/Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" rel="icon" class="logo">
+    <img src="${url.resourcesPath}/img/Frame 263.png" alt="Logo" rel="icon" class="logo">
     <h2>Reset Password</h2>
     <p>Hai richiesto il reset della tua password${realmName}. Utilizza il seguente link per reimpostare la tua password:</p>
     <p><a href="${link}" class="link">${link}</a></p>
