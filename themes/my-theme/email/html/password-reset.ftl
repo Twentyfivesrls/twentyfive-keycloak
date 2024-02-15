@@ -38,8 +38,7 @@
 </head>
 <body>
 <div class="container">
-    <#--<img src="${url.
-    resourcesPath}/img/Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" rel="icon" class="logo">-->
+    <img src="./logo.png" alt="Logo" rel="icon" class="logo">
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:
