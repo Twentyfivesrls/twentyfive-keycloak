@@ -26,9 +26,12 @@
         }
         h2 {
             color: #333;
+            font-size: 32px;
         }
         p {
             color: #666;
+            font-size: 16px;
+            text-align: start;
         }
         .link {
             color: #ffffff !important;
@@ -47,15 +50,13 @@
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
         <a href="${link}">${link}</a>
-    <div style="display: inline-grid">
         <p>Grazie,</p>
-        <p>Paybolt</p>
-    </div>
+        <p style="font-style: italic">Paybolt</p>
     <hr>
         <p>NB.Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
         In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
-    <div style="display: inline-grid; margin: 0px 40% 25px 40%; text-align: center">
+    <div style="display: inline-grid; margin:0px 40% 30px 45%; text-align: center">
     <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
     <span><a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a></span>
     <span><a href="https://www.twentyfive25.it/" class="link">Academy</a></span>
