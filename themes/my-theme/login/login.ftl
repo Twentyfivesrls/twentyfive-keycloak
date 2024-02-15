@@ -65,7 +65,7 @@
                         <button type="submit" class="button-login">Accedi</button>
                     <p class="create-account">
                     <div id="kc-registration" style="display: inline-grid">
-                        Devi ancora registrarti? <a href="${url.registrationUrl}" id="create-account-link">Crea un account</a>
+                        Devi ancora registrarti? <a style="color: #1A1660" href="${url.registrationUrl}" id="create-account-link">Crea un account</a>
                     </div>
                     </p>
                     <!-- Card per i social buttons -->

@@ -13,7 +13,6 @@
             background: linear-gradient(#2317E6, #390099);
         }
         .container {
-            height: 200px;
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
