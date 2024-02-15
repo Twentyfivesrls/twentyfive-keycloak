@@ -38,7 +38,8 @@
 </head>
 <body>
 <div class="container">
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fcreative-light-bulb-abstract-glowing-blue-background-generative-ai_188544-8090.jpg%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.1.1141335507.1707955200%26semt%3Dsph&tbnid=MlkqFU1Qovf26M&vet=12ahUKEwisl8TYxa2EAxUUVOUKHR5mAkEQMygFegQIARBi..i&imgrefurl=https%3A%2F%2Fit.freepik.com%2Ffoto-vettori-gratuito%2Fcolori&docid=sjxewrfV-76hlM&w=428&h=626&q=immagini&ved=2ahUKEwisl8TYxa2EAxUUVOUKHR5mAkEQMygFegQIARBi" width="120" height="44" class="logo">
+    <img src="${url.
+    resourcesPath}/img/Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" rel="icon" class="logo">
     <h2>Reset Password</h2>
     <p>Hai richiesto il reset della tua password${realmName}. Utilizza il seguente link per reimpostare la tua password:</p>
     <p><a href="${link}" class="link">${link}</a></p>
