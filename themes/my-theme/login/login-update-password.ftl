@@ -20,7 +20,7 @@
                 </div>
                 <div class="${properties.kcInputWrapperClass!}">
                     <input type="password" id="password-new" name="password-new" class="input-update-password"
-                           autofocus autocomplete="new-password"
+                           autofocus autocomplete="new-password" placeholder="${msg("Password")}"
                            aria-invalid="<#if messagesPerField.existsError('password','password-confirm')>true</#if>"
                     />
 
@@ -40,6 +40,7 @@
                     <input type="password" id="password-confirm" name="password-confirm"
                            class="input-update-password"
                            autocomplete="new-password"
+                           placeholder="${msg("Conferma Password")}"
                            aria-invalid="<#if messagesPerField.existsError('password-confirm')>true</#if>"
                     />
 
