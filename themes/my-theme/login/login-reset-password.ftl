@@ -6,7 +6,7 @@
 </#if>
 
 <#import "template.ftl" as layout>
-<@layout.registrationLayout displayInfo=true displayMessage=!messagesPerField.existsError('email'); section>
+<@layout.registrationLayout displayInfo=true displayMessage=!messagesPerField.existsError('username'); section>
     <#if section = "header">
     <#elseif section = "form">
         <div class="forgot-password-container">
@@ -17,13 +17,13 @@
         <form id="kc-reset-password-form" class="form-container" action="${url.loginAction}" method="post">
              <h2 class="h2-forgot-password">Recupero Password</h2>
             <p class="p-forgot-password">Inserisci la mail associata al tuo account e riceverai un link per resettare la tua password</p>
-            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('email',properties.kcFormGroupErrorClass!)}">
+            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('username',properties.kcFormGroupErrorClass!)}">
                     <label class="label-forgot-password" for="email">Email</label>
-                    <input class="input-forgot-password" id="email" type="text" name="email" placeholder="${msg("Inserisci la tua email")}" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>">
-                <#if messagesPerField.existsError('email')>
-                    <span id="input-error" class="invalid-input" aria-live="polite">
-                                    ${kcSanitize(messagesPerField.getFirstError('email'))?no_esc}
-                            </span>
+                <input type="text" id="username" name="username" class="input-forgot-password" autofocus value="${(auth.attemptedUsername!'')}" aria-invalid="<#if messagesPerField.existsError('username')>true</#if>"/>
+                <#if messagesPerField.existsError('username')>
+                    <span id="input-error-username" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
+                                    ${kcSanitize(messagesPerField.get('username'))?no_esc}
+                        </span>
                 </#if>
                 </div>
 

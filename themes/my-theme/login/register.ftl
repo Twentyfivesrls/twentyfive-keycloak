@@ -94,9 +94,9 @@
 
             <#if passwordRequired>
 
-                <label class="label-register" for="password" >${msg("password")}</label>
+                <label class="label-register" for="password" >${msg("Password*")}</label>
                 <div style="display: flex">
-                    <input type="password" id="password" class="input-register" placeholder="${msg("Password*")}" name="password" value="${(register.formData.password!'')}" autocomplete="new-password" aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
+                    <input type="password" id="password" class="input-register" placeholder="${msg("Password")}" name="password" value="${(register.formData.password!'')}" autocomplete="new-password" aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
 
                     <label class="visibility" id="v" onclick="togglePassword()">
                         <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
