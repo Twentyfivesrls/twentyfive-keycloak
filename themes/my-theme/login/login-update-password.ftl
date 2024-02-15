@@ -66,10 +66,10 @@
 
                 <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                     <#if isAppInitiatedAction??>
-                        <input class="button-update-password" type="submit" value="${msg("doSubmit")}" />
+                        <input class="button-update-password" type="submit" value="${msg("Reset password")}" />
                         <button class="button-update-password" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</button>
                     <#else>
-                        <input class="button-update-password" type="submit" value="${msg("doSubmit")}" />
+                        <input class="button-update-password" type="submit" value="${msg("Reset password")}" />
                     </#if>
                 </div>
             </div>
