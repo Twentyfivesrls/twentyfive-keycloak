@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,6 @@
             color: #666;
         }
         .link {
-            font-weight: bold;
             color: #ffffff;
             text-decoration: none;
         }
@@ -50,10 +49,10 @@
     <p>Clicca sul seguente link per reimpostare la tua password:
         <a href="${link}" class="link">${link}</a></p>
 </div>
-    <div style="display: inline-grid">
+    <div style="display: inline-grid; text-align: center">
     <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
-    <a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a>
-    <a href="https://www.twentyfive25.it/" class="link">Academy</a>
+    <span><a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a></span>
+    <span><a href="https://www.twentyfive25.it/" class="link">Academy</a></span>
     </div>
 </div>
 </body>
