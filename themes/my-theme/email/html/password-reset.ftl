@@ -45,10 +45,17 @@
     <div class="card-email">
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
-    <p>Clicca sul seguente link per reimpostare la tua password:
-        <a href="${link}">${link}</a></p>
+    <p>Clicca sul seguente link per reimpostare la tua password:</p>
+        <a href="${link}">${link}</a>
+    <div style="display: inline-grid">
+        <p>Grazie,</p>
+        <p>Paybolt</p>
+    </div>
+    <hr>
+        <p>NB.Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
+        In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
-    <div style="display: inline-grid; margin: 0px 40% 25px 40%">
+    <div style="display: inline-grid; margin: 0px 40% 25px 40%; text-align: center">
     <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
     <span><a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a></span>
     <span><a href="https://www.twentyfive25.it/" class="link">Academy</a></span>
