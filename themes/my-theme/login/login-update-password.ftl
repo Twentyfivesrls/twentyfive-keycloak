@@ -1,7 +1,6 @@
 <#import "template.ftl" as layout>
 <@layout.registrationLayout displayMessage=!messagesPerField.existsError('password','password-confirm'); section>
     <#if section = "header">
-        ${msg("updatePasswordTitle")}
     <#elseif section = "form">
         <div class="update-password-container">
         <div class="logo-forgot-password">
@@ -9,6 +8,8 @@
             resourcesPath}/img/Logo - 25 - Twentyfive - Vari formati_Tavola disegno 1 copia 8 1.svg" alt="Logo" rel="icon">
         </div>
         <form id="kc-passwd-update-form" class="${properties.kcFormClass!}" action="${url.loginAction}" method="post">
+            <h2 class="h2-forgot-password">Reset password</h2>
+            <p class="p-forgot-password">La nuova password deve essere differente da quella precedente</p>
             <input type="text" id="username" name="username" value="${username}" autocomplete="username"
                    readonly="readonly" style="display:none;"/>
             <input type="password" id="password" name="password" autocomplete="current-password" style="display:none;"/>
@@ -64,10 +65,10 @@
 
                 <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                     <#if isAppInitiatedAction??>
-                        <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doSubmit")}" />
-                        <button class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</button>
+                        <input class="button-update-password" type="submit" value="${msg("doSubmit")}" />
+                        <button class="button-update-password" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</button>
                     <#else>
-                        <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doSubmit")}" />
+                        <input class="button-update-password" type="submit" value="${msg("doSubmit")}" />
                     </#if>
                 </div>
             </div>
