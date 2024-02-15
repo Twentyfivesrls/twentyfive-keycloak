@@ -31,8 +31,7 @@
             color: #666;
         }
         .link {
-            color: #ffffff;
-            text-decoration: none;
+            color: #ffffff !important;
         }
         .logo {
             max-width: 100px;
@@ -47,7 +46,7 @@
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:
-        <a href="${link}" class="link">${link}</a></p>
+        <a href="${link}">${link}</a></p>
 </div>
     <div style="display: inline-grid; text-align: center">
     <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
