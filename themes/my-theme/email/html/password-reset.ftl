@@ -16,7 +16,7 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#0E0026, #390099);
+            background: linear-gradient( #0E0026 100%, #390099);
         }
         .card-email{
             background-color: #fff;
@@ -48,7 +48,7 @@
     <p>Clicca sul seguente link per reimpostare la tua password:
         <a href="${link}">${link}</a></p>
 </div>
-    <div style="display: inline-grid; text-align: center">
+    <div style="display: inline-grid; margin: 0px 40% 25px 40%">
     <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
     <span><a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a></span>
     <span><a href="https://www.twentyfive25.it/" class="link">Academy</a></span>
