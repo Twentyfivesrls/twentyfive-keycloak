@@ -10,16 +10,19 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#2317E6, #390099);
+            background: linear-gradient(#0E0026, #390099);
         }
         .container-email {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(#2317E6, #390099);
+            background: linear-gradient(#0E0026, #390099);
         }
         .card-email{
-            color: #ffffff;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
         }
         h2 {
             color: #333;
