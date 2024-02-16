@@ -72,7 +72,7 @@
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <a id="shortLink"></a>
+        <a href="${link}" id="shortLink">Clicca qui</a>
         <div>
         <p style="font-style: italic; display: table-caption">Grazie, Paybolt</p>
         </div>
