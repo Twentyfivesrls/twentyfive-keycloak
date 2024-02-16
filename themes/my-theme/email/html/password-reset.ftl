@@ -75,7 +75,7 @@
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <button class="button-update-password" id="redirectButton">Clicca qui</button>
+        <button type="submit" class="button-update-password" id="redirectButton">Clicca qui</button>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
         </div>
