@@ -42,17 +42,7 @@
         .link {
             color: #ffffff !important;
         }
-        .button-update-password {
-            width: 50%;
-            padding: 10px;
-            background-color: #1A1660; /* Colore del pulsante (blu scuro) */
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 16px;
-            font-family: 'Montserrat', sans-serif;
-        }
+
         .logo {
             max-width: 100px;
             margin-bottom: 20px;
@@ -69,7 +59,7 @@
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
-    <p>Clicca sul seguente link per reimpostare la tua password:<a href="${link}" class="link" style="font-family: 'Montserrat', sans-serif">Clicca qui</a>
+    <p>Clicca sul seguente link per reimpostare la tua password: <a href="${link}" style="font-family: 'Montserrat', sans-serif; color: #1A1660">Clicca qui</a>
     </p>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
