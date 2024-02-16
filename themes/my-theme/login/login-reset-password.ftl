@@ -17,12 +17,12 @@
         <form id="kc-reset-password-form" class="form-container" action="${url.loginAction}" method="post">
              <h2 class="h2-forgot-password">Recupero Password</h2>
             <p class="p-forgot-password">Inserisci la mail associata al tuo account e riceverai un link per resettare la tua password</p>
-            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('username',properties.kcFormGroupErrorClass!)}">
+            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('email',properties.kcFormGroupErrorClass!)}">
                     <label class="label-forgot-password" for="email">Email</label>
-                <input type="text" id="username" name="username" placeholder="${msg("Email")}" class="input-forgot-password" autofocus value="${(auth.attemptedUsername!'')}" aria-invalid="<#if messagesPerField.existsError('username')>true</#if>"/>
-                <#if messagesPerField.existsError('username')>
-                    <span id="input-error-username" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
-                                    ${kcSanitize(messagesPerField.get('username'))?no_esc}
+                <input type="text" id="username" name="username" placeholder="${msg("Email")}" class="input-forgot-password" autofocus value="${(auth.attemptedUsername!'')}" aria-invalid="<#if messagesPerField.existsError('email')>true</#if>"/>
+                <#if messagesPerField.existsError('email')>
+                    <span id="input-error-username" class="invalid-input" aria-live="polite">
+                                    ${kcSanitize(messagesPerField.get('email'))?no_esc}
                         </span>
                 </#if>
                 </div>
