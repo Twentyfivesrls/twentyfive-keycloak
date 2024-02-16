@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Reset Password</title>
     <style>
@@ -49,23 +49,23 @@
 </head>
 <body>
 <div class="container-email">
+    <img src="Logo%20-%2025%20-%20Twentyfive%20-%20Vari%20formati_Tavola%20disegno%201%20copia%208%201.svg" alt="Logo">
     <div class="card-email">
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
         <a href="${link}">${link}</a>
         <div>
-        <p>Grazie,</p>
-        <p style="font-style: italic">Paybolt</p>
+        <p style="font-style: italic; display: inline-grid">Grazie, Paybolt</p>
         </div>
     <hr>
         <p>NB.Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
         In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
     <!-- Icone social -->
-    <div style="margin-top: 20px;">
-        <a href="https://www.facebook.com/twentyfive25" target="_blank" class="link"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/twentyfive25" target="_blank" class="link"><i class="fab fa-instagram"></i></a>
+    <div>
+        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <!-- Link Twentyfive -->
