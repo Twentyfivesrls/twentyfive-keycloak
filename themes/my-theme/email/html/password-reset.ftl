@@ -55,7 +55,7 @@
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password: <a href="${link}" style="font-family: 'Montserrat', sans-serif; color: #1A1660">Clicca qui</a>
     </p>
-        <p>Attenzione, questo link è valido solo per ${linkExpirationFormatter(linkExpiration)} </p>
+        <p>Attenzione, questo link è valido solo per 5 minuti. </p>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
         </div>
