@@ -1,4 +1,30 @@
+
 <#import "template.ftl" as layout>
+<script>
+    function togglePassword() {
+        var x = document.getElementById("password");
+        var v = document.getElementById("vi");
+        if (x.type === "password") {
+            x.type = "text";
+            v.src = "${url.resourcesPath}/img/eye.png";
+        } else {
+            x.type = "password";
+            v.src = "${url.resourcesPath}/img/eye-off.png";
+        }
+    }
+
+    function toggleConfirmPassword() {
+        var confirmPasswordInput = document.getElementById("password-confirm");
+        var visibilityIcon = document.getElementById("vi-confirm")
+        if (confirmPasswordInput.type === "password"){
+            confirmPasswordInput.type = "text";
+            visibilityIcon.src = "${url.resourcesPath}/img/eye.png";
+        } else {
+            confirmPasswordInput.type = "password";
+            visibilityIcon.src = "${url.resourcesPath}/img/eye-off.png";
+        }
+    }
+</script>
 <@layout.registrationLayout displayMessage=!messagesPerField.existsError('password','password-confirm'); section>
     <#if section = "header">
     <#elseif section = "form">
@@ -18,31 +44,37 @@
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="password-new" class="label-update-password">${msg("Password")}</label>
                 </div>
-                <div class="${properties.kcInputWrapperClass!}">
+                <div style="display: flex">
                     <input type="password" id="password-new" name="password-new" class="input-update-password"
                            autofocus autocomplete="new-password" placeholder="${msg("Password")}"
                            aria-invalid="<#if messagesPerField.existsError('password','password-confirm')>true</#if>"
                     />
-
+                    <label class="visibility" id="v" onclick="togglePassword()">
+                        <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                </div>
                     <#if messagesPerField.existsError('password')>
                         <span id="input-error-password" class="invalid-input" aria-live="polite">
                             ${kcSanitize(messagesPerField.get('password'))?no_esc}
                         </span>
                     </#if>
-                </div>
+
             </div>
 
             <div class="${properties.kcFormGroupClass!}">
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="password-confirm" class="label-update-password">${msg("Conferma Password")}</label>
                 </div>
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="password" id="password-confirm" name="password-confirm"
+                <div style="display: flex">
+                <input type="password" id="password-confirm" name="password-confirm"
                            class="input-update-password"
                            autocomplete="new-password"
                            placeholder="${msg("Conferma Password")}"
                            aria-invalid="<#if messagesPerField.existsError('password-confirm')>true</#if>"
                     />
+                    <label class="visibility" id="v-confirm" onclick="toggleConfirmPassword()">
+                        <img id="vi-confirm" src="${url.resourcesPath}/img/eye-off.png">
+                    </label>
+                </div>
 
                     <#if messagesPerField.existsError('password-confirm')>
                         <span id="input-error-password-confirm" class="invalid-input" aria-live="polite">
@@ -51,7 +83,6 @@
                     </#if>
 
                 </div>
-            </div>
 
             <div class="${properties.kcFormGroupClass!}">
                 <div id="kc-form-options" class="${properties.kcFormOptionsClass!}">
@@ -74,5 +105,6 @@
                 </div>
             </div>
         </form>
+        </div>
     </#if>
 </@layout.registrationLayout>

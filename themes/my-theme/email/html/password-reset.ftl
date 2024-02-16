@@ -25,18 +25,33 @@
             padding: 10px;
             margin: 50px 0px 50px;
             text-align: center;
+
         }
         h2 {
             color: #333;
             font-size: 32px;
+            font-family: 'Montserrat', sans-serif;
+
         }
         p {
             color: #666;
             font-size: 16px;
             text-align: start;
+            font-family: 'Montserrat', sans-serif;
         }
         .link {
             color: #ffffff !important;
+        }
+        .button-update-password {
+            width: 50%;
+            padding: 10px;
+            background-color: #1A1660; /* Colore del pulsante (blu scuro) */
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
         }
         .logo {
             max-width: 100px;
@@ -53,14 +68,14 @@
     <div class="card-email">
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
-    <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, clicca sul link di seguito</p>
+    <p>Hai richiesto il ripristino per la password del tuo account. <br>Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <a href="${link}" id="shortLink">Clicca qui</a>
+        <button class="button-update-password" onclick="window.location.href='${link}'">Clicca qui</button>
         <div>
-        <p style="font-style: italic; display: inline-block">Grazie, Paybolt</p>
+        <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
         </div>
     <hr>
-        <p>NB.Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
+        <p>NB. Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
         In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
     <!-- Icone social -->
