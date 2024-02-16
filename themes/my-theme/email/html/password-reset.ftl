@@ -52,7 +52,7 @@
     <img src="Logo%20-%2025%20-%20Twentyfive%20-%20Vari%20formati_Tavola%20disegno%201%20copia%208%201.svg" alt="Logo">
     <div class="card-email">
     <h2>Recupero Password</h2>
-        <p>Gentile msg${user.getFirstName()} msg${user.getLastName()}</p>
+        <p>Gentile user.getFirstName() user.getLastName()</p>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
         <a href="${link}" id="shortLink">Clicca qui</a>
