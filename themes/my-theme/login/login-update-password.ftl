@@ -2,7 +2,7 @@
 <#import "template.ftl" as layout>
 <script>
     function togglePassword() {
-        var x = document.getElementById("password");
+        var x = document.getElementById("password-new");
         var v = document.getElementById("vi");
         if (x.type === "password") {
             x.type = "text";
