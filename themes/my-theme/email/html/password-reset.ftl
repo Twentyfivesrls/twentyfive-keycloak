@@ -8,12 +8,6 @@
 
     <title>Reset Password</title>
     <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(#0E0026, #390099);
-        }
         .container-email {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
