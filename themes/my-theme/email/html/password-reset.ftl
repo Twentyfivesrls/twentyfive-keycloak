@@ -61,6 +61,11 @@
 
         }
     </style>
+    <script>
+        document.getElementById('redirectButton').addEventListener('click', function() {
+            window.location.href = '${link}';
+        });
+    </script>
 </head>
 <body>
 <div class="container-email">
@@ -68,9 +73,9 @@
     <div class="card-email">
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
-    <p>Hai richiesto il ripristino per la password del tuo account. <br>Per procedere con il recupero della password, clicca sul link di seguito</p>
+    <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <button onclick="window.location.href='${link}'">Clicca qui</button>
+        <button class="button-update-password" id="redirectButton">Clicca qui</button>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
         </div>
