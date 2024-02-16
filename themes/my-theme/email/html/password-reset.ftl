@@ -61,11 +61,6 @@
 
         }
     </style>
-    <script>
-        function redirectLink() {
-            window.location.href = '${link}';
-        }
-    </script>
 </head>
 <body>
 <div class="container-email">
@@ -74,8 +69,8 @@
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
-    <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <input type="submit" class="button-update-password" onclick="window.location.href='${link}'">Clicca qui</input>
+    <p>Clicca sul seguente link per reimpostare la tua password:<a href="${link}" class="link" style="font-family: 'Montserrat', sans-serif">Clicca qui</a>
+    </p>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie,<br> Paybolt</p>
         </div>
