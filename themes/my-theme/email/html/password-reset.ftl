@@ -46,6 +46,24 @@
 
         }
     </style>
+    <script>
+        fetch('https://twly.it/shorten-link/generate-keycloak ', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({'url': ${link}})
+        })
+            .then(response=>{
+                element = document.getElementById('shortLink');
+                if (!response.ok){
+                     element.href = ${link};
+                     element.innerHTML = 'Clicca qui';
+                } else {
+                    element.href = response.json()['url'];
+                    element.innerHTML = response.json()['url'];
+                }
+            });
+    </script>
 </head>
 <body>
 <div class="container-email">
@@ -54,9 +72,9 @@
     <h2>Recupero Password</h2>
     <p>Hai richiesto il ripristino per la password del tuo account${realmName}. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <a href="${link}">${link}</a>
+        <a id="shortLink"></a>
         <div>
-        <p style="font-style: italic; display: inline-grid">Grazie, Paybolt</p>
+        <p style="font-style: italic; display: table-caption">Grazie, Paybolt</p>
         </div>
     <hr>
         <p>NB.Se non hai richiesto il recupero della password, ti preghiamo di ignorare questa mail.
