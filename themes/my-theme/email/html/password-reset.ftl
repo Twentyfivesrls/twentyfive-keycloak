@@ -55,27 +55,7 @@
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, clicca sul link di seguito</p>
     <p>Clicca sul seguente link per reimpostare la tua password:</p>
-        <a href="${link}" id="shortLink">${link}</a>
-        <script>
-            fetch('https://twly.it/shorten-link/generate-keycloak ', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    'url': ${link}
-                })
-            })
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('shortLink').href = data.shortened_url;
-                    document.getElementById('shortLink').innerText = data.shortened_url;
-                    console.log("link accorciato", data.shortened_url)
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                });
-        </script>
+        <a href="${link}" id="shortLink">Clicca qui</a>
         <div>
         <p style="font-style: italic; display: inline-block">Grazie, Paybolt</p>
         </div>
