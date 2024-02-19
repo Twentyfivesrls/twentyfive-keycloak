@@ -41,9 +41,26 @@
             max-width: 100px;
             margin-bottom: 20px;
         }
+        .center-links {
+            text-align: center;
+        }
+
+        .center-links .link-container {
+            display: inline-block;
+            margin: 0 auto; /* Centra l'elemento orizzontalmente */
+            text-align: left; /* Allinea il testo a sinistra */
+        }
+
+        .center-links .link-container a {
+            display: block; /* Imposta gli anchor come blocchi per occupare l'intera larghezza del contenitore */
+            margin-bottom: 10px; /* Aggiunge spazio tra i link */
+            color: #666666;
+        }
+
         @media screen and (max-width: 600px){
 
         }
+
     </style>
 </head>
 <body>
@@ -70,11 +87,13 @@
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <!-- Link Twentyfive -->
-    <div style="display: inline-grid; margin:0px 40% 30px 45%; text-align: center">
-    <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
-    <span><a href="https://www.twentyfive25.it/" class="link"> Twentyfive</a></span>
-    <span><a href="https://www.twentyfive25.it/" class="link">Academy</a></span>
+    <div class="center-links">
+        <div class="link-container">
+            <a href="https://paybolt.it/">https://paybolt.it/</a>
+            <a href="https://www.twentyfive25.it/" class="link">Twentyfive</a>
+            <a href="https://www.twentyfive25.it/" class="link">Academy</a>
+        </div>
     </div>
-</div>
+
 </body>
 </html>
