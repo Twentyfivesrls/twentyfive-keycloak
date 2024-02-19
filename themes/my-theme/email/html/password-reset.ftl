@@ -75,11 +75,6 @@
         <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo" style="display: flex; margin: 0px 120px; padding: 15px">
     </div>
     <div class="card-email">
-        <#--<div>
-            <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
-    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
-        9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red Logo">
-        </div>-->
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
     <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito</p>
@@ -95,9 +90,9 @@
 </div>
     <!-- Icone social -->
     <div class="social-icons">
-        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
     <!-- Link Twentyfive -->
     <div class="center-links">
