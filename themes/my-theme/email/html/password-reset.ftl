@@ -108,7 +108,7 @@
         <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fab fa-facebook-f"></i></a>
 
         <!-- Icona Instagram -->
-        <a href="https://www.instagram.com/twentyfive25.it" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/twentyfive25.it" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
 
         <!-- Icona LinkedIn -->
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
