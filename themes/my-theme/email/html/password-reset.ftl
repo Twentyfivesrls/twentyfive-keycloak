@@ -47,13 +47,12 @@
 
         .center-links .link-container {
             display: inline-block;
-            margin: 0 auto; /* Centra l'elemento orizzontalmente */
-            text-align: left; /* Allinea il testo a sinistra */
+            margin: 0 auto;
         }
 
         .center-links .link-container a {
-            display: block; /* Imposta gli anchor come blocchi per occupare l'intera larghezza del contenitore */
-            margin-bottom: 10px; /* Aggiunge spazio tra i link */
+            display: block;
+            margin-bottom: 10px;
             color: #666666;
         }
 
