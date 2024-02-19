@@ -1,3 +1,4 @@
+<#--
 <#outputformat "plainText">
     <#assign requiredActionsText><#if requiredActions??><#list requiredActions><#items as reqActionItem>${msg("requiredAction.${reqActionItem}")}<#sep>, </#sep></#items></#list></#if></#assign>
 </#outputformat>
@@ -44,4 +45,4 @@
     <p>Spiacenti, questa azione è scaduta</p>
     <a style="color: #1A1660" href="${url.loginUrl}" id="create-account-link">Torna al login</a></div>
 </body>
-</html>
+</html>-->
