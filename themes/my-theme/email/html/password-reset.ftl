@@ -90,7 +90,7 @@
 </div>
     <!-- Icone social -->
     <div class="social-icons">
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa-brands fa-facebook"></i></a>
+        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
