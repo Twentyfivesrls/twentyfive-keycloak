@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <title>Reset Password</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>Reset Password</title>
     <style>
         .container-email {
             font-family: 'Montserrat', sans-serif;
@@ -72,7 +71,7 @@
 </head>
 <body>
 <div class="container-email">
-    <img src="Logo_Twentyfive.png" width="280" height="51" alt="Logo">
+    <img src="Logo_Twentyfive.png" alt="Logo">
     <div class="card-email">
         <#--<div>
             <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
