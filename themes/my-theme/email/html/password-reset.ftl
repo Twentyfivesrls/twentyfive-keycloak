@@ -105,7 +105,8 @@
     </div>-->
     <div class="social-icons">
         <!-- Icona Facebook -->
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="material-icons">facebook</i></a>
+        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"></a>
+        <img src="2023_Facebook_icon%201.svg" alt="facebook">
 
         <!-- Icona Behance -->
         <a href="https://www.facebook.com/twentyfivesrls" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="material-icons">behance</i></a>
