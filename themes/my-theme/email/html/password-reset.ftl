@@ -71,7 +71,7 @@
 </head>
 <body>
 <div class="container-email">
-    <img src="Logo_Twentyfive.png" alt="Logo">
+    <img src="https://drive.google.com/file/d/1SS2pMn4ZT5owakJnIVj3WivgIdCijpyJ/view?usp=sharing" alt="Logo">
     <div class="card-email">
         <#--<div>
             <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
