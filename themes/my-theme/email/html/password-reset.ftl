@@ -95,9 +95,14 @@
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>-->
     <div class="social-icons">
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link" style="color: white; font-size: 24px; margin-right: 10px;"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/twentyfivesrls" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="ast-builder-social-element ast-inline-flex ast-behance footer-social-item" style="color: white; font-size: 24px; margin-right: 10px;"><span class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></span></a>
-        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link" style="color: white; font-size: 24px;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <!-- Icona Facebook -->
+        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-facebook-official" style="color: white;"></i></a>
+
+        <!-- Icona Behance -->
+        <a href="https://www.facebook.com/twentyfivesrls" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="ast-builder-social-element ast-inline-flex ast-behance footer-social-item"><i class="fa fa-behance" style="color: white;"></i></a>
+
+        <!-- Icona LinkedIn -->
+        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa fa-linkedin" style="color: white;"></i></a>
     </div>
     <!-- Link Twentyfive -->
     <div class="center-links">
