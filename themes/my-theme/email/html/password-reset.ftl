@@ -71,7 +71,7 @@
 </head>
 <body>
 <div class="container-email">
-    <img src="https://drive.google.com/file/d/1SS2pMn4ZT5owakJnIVj3WivgIdCijpyJ/view?usp=sharing" alt="Logo">
+    <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo">
     <div class="card-email">
         <#--<div>
             <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
