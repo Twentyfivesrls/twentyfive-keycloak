@@ -72,7 +72,9 @@
 </head>
 <body>
 <div class="container-email">
-    <img src="Logo%20-%2025%20-%20Twentyfive%20-%20Vari%20formati_Tavola%20disegno%201%20copia%208%201.svg" alt="Logo">
+    <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+        9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
     <div class="card-email">
     <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
