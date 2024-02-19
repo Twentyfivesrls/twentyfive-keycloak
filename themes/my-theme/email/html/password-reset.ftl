@@ -72,9 +72,6 @@
             margin-right: 10px; /* Aggiunge spazio tra le icone */
         }
 
-        .fab {
-            font-family: 'Font Awesome 5 Free';
-        }
 
         @media screen and (max-width: 600px){
 
@@ -109,7 +106,7 @@
     </div>-->
     <div class="social-icons">
         <!-- Icona Facebook -->
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fab fa-facebook-f" style="color: #3b5998;"></i></a>
+        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa-brands fa-facebook-f"></i></a>
 
         <!-- Icona Instagram -->
         <a href="https://www.instagram.com/twentyfive25.it" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" style="color: #e4405f;"></i></a>
