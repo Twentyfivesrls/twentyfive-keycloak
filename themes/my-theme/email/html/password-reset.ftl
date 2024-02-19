@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Reset Password</title>
     <style>
         .container-email {
@@ -44,7 +44,7 @@
             text-align: center;
         }
 
-       /* .center-links .link-container {
+       .center-links .link-container {
             display: inline-block;
             margin: 0 auto;
         }
@@ -62,7 +62,7 @@
         .social-icons a {
             margin-right: 10px;
             color: white;
-        }*/
+        }
 
         .social-icons {
             font-size: 24px; /* Imposta la dimensione delle icone */
@@ -71,7 +71,6 @@
             color: white; /* Imposta il colore delle icone */
             margin-right: 10px; /* Aggiunge spazio tra le icone */
         }
-
 
         @media screen and (max-width: 600px){
 
@@ -99,21 +98,12 @@
         In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
     <!-- Icone social -->
-    <#--<div class="social-icons">
+    <div class="social-icons">
         <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/twentyfivesrls" aria-label="Facebook" target="_blank" rel="noopener noreferrer" style="--color: #1B64F6; --background-color: transparent;" class="ast-builder-social-element ast-inline-flex ast-behance footer-social-item"><span class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></span></a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>-->
-    <div class="social-icons">
-        <!-- Icona Facebook -->
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa-brands fa-facebook-f"></i></a>
-
-        <!-- Icona Instagram -->
-        <a href="https://www.instagram.com/twentyfive25.it" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" style="color: #e4405f;"></i></a>
-
-        <!-- Icona LinkedIn -->
-        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in" style="color: #0077b5;"></i></a>
     </div>
+
     <!-- Link Twentyfive -->
     <div class="center-links">
         <div class="link-container">
