@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Reset Password</title>
     <style>
         .container-email {
@@ -105,14 +105,13 @@
     </div>-->
     <div class="social-icons">
         <!-- Icona Facebook -->
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"></a>
-        <img src="2023_Facebook_icon%201.svg" alt="facebook">
+        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fab fa-facebook-f"></i></a>
 
-        <!-- Icona Behance -->
-        <a href="https://www.facebook.com/twentyfivesrls" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="material-icons">behance</i></a>
+        <!-- Icona Instagram -->
+        <a href="https://www.instagram.com/twentyfive25.it" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
 
         <!-- Icona LinkedIn -->
-        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="material-icons">linkedin</i></a>
+        <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
     </div>
     <!-- Link Twentyfive -->
     <div class="center-links">
