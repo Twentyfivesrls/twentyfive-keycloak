@@ -72,7 +72,7 @@
 </head>
 <body>
 <div class="container-email">
-    <img src="Logo%20-%2025%20-%20Twentyfive%20-%20Vari%20formati_Tavola%20disegno%201%20copia%208%201.svg" alt="Logo">
+    <img src="Logo_Twentyfive.png" alt="Logo">
     <div class="card-email">
         <#--<div>
             <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
