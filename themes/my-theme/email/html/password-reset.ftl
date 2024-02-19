@@ -55,6 +55,15 @@
             margin-bottom: 10px;
             color: #666666;
         }
+        .social-icons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            color: white;
+        }
 
         @media screen and (max-width: 600px){
 
@@ -80,7 +89,7 @@
         In caso di problemi o dubbi, puoi contattarci immediatamente al nostro servizio clienti.</p>
 </div>
     <!-- Icone social -->
-    <div>
+    <div class="social-icons">
         <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
