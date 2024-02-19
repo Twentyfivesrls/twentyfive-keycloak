@@ -94,6 +94,6 @@
             <a href="https://www.twentyfive25.it/" class="link">Academy</a>
         </div>
     </div>
-
+</div>
 </body>
 </html>
