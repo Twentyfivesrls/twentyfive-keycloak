@@ -84,7 +84,7 @@
     <!-- Link Twentyfive -->
     <div class="center-links">
         <div class="link-container">
-            <a href="https://paybolt.it/">https://paybolt.it/</a>
+            <a style="color: #666666" href="https://paybolt.it/">https://paybolt.it/</a>
             <a href="https://www.twentyfive25.it/">Twentyfive</a>
             <a href="https://www.twentyfive25.it/">Academy</a>
         </div>
