@@ -68,7 +68,7 @@
         <h2>Recupero Password</h2>
         <p>Gentile ${user.getFirstName()} ${user.getLastName()},</p>
         <p>Hai richiesto il ripristino per la password del tuo account. Per procedere con il recupero della password, <br> clicca sul link di seguito:</p>
-        <p><a href="${link}" style="color: #1A1660; text-decoration: none;">Clicca qui per reimpostare la tua password</a></p>
+        <p><a href="${link}" style="color: #1A1660; text-decoration: none;">Clicca qui</a></p>
         <p>Attenzione, questo link è valido solo per 5 minuti.</p>
         <p style="font-style: italic;">Grazie,<br> Paybolt</p>
         <hr>
