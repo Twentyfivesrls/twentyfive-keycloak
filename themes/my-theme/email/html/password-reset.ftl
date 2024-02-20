@@ -2,7 +2,6 @@
 <html lang="it" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Reset Password</title>
@@ -73,12 +72,15 @@
         }
 
         @media screen and (max-width: 600px){
+         .logo{
+             max-width: 100px;
+         }
 
         }
 
     </style>
 </head>
-<body style="background: linear-gradient( #0E0026 100%, #390099); font-family: 'Montserrat', sans-serif; margin: 0; padding: 0;">
+<body>
 <div class="container-email">
     <div class="logo">
         <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo" style="display: flex; margin: 0px 120px; padding: 15px">
