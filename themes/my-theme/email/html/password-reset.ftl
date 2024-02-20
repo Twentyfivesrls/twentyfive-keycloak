@@ -74,6 +74,8 @@
         @media screen and (max-width: 600px){
          .logo{
              max-width: 100px;
+             padding: 15px;
+             margin: 0px 80px;
          }
 
         }
