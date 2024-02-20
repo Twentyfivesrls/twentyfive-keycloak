@@ -83,7 +83,7 @@
 <body>
 <div class="container-email">
     <div class="logo">
-        <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo" style="display: flex; margin: 0px 120px; padding: 15px">
+        <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo" >
     </div>
     <div class="card-email">
     <h2>Recupero Password</h2>
