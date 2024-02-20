@@ -103,7 +103,7 @@
 </div>
     <!-- Icone social -->
     <div class="social-icons">
-        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i class="fa fa-instagram"></i> </a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
@@ -112,8 +112,8 @@
     <div class="center-links">
         <div class="link-container">
             <a href="https://paybolt.it/">https://paybolt.it/</a>
-            <a href="https://www.twentyfive25.it/" class="link">Twentyfive</a>
-            <a href="https://www.twentyfive25.it/" class="link">Academy</a>
+            <a style="color: white" href="https://www.twentyfive25.it/" class="link">Twentyfive</a>
+            <a style="color: white" href="https://www.twentyfive25.it/" class="link">Academy</a>
         </div>
     </div>
 </div>
