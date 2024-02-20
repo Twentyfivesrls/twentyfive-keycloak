@@ -16,11 +16,10 @@
         }
 
         .container-email {
+            background: linear-gradient(#0E0026 100%, #390099);
+            font-family: 'Montserrat', sans-serif;
             padding: 20px;
-            background-color: #fff;
             margin: 50px auto;
-            max-width: 600px;
-            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
@@ -32,7 +31,11 @@
         }
 
         .card-email {
-            padding: 20px;
+            background-color: #fff;
+            padding: 10px;
+            margin: 50px 0px 50px;
+            text-align: center;
+
         }
 
         h2 {
@@ -55,7 +58,7 @@
         .link-container a {
             display: block;
             margin-bottom: 10px;
-            color: #666666;
+            ì
         }
     </style>
 </head>
