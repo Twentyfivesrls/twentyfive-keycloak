@@ -78,7 +78,7 @@
 
     </style>
 </head>
-<body>
+<body style="background: linear-gradient( #0E0026 100%, #390099); font-family: 'Montserrat', sans-serif; margin: 0; padding: 0;">
 <div class="container-email">
     <div class="logo">
         <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp" alt="Logo" style="display: flex; margin: 0px 120px; padding: 15px">
