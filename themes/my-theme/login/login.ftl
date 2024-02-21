@@ -49,9 +49,9 @@
                         <label class="visibility" id="v" onclick="togglePassword()">
                             <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
-                    <#if messagesPerField.existsError('password','password-confirm')>
+                    <#if messagesPerField.existsError('username','password')>
                         <span id="input-error" class="invalid-input" aria-live="polite">
-                                    ${kcSanitize(messagesPerField.getFirstError('password-confirm'))?no_esc}
+                                    ${kcSanitize(messagesPerField.getFirstError('password'))?no_esc}
                             </span>
                     </#if>
 
