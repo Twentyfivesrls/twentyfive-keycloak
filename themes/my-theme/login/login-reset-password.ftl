@@ -43,7 +43,6 @@
         </form>
         </div>
    <#elseif section = "info" >
-        <p>CIAOOOOOO</p>
         <hr />
         ${msg("emailInstruction")?no_esc}
     </#if>
