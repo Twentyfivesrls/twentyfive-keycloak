@@ -21,14 +21,14 @@
     <body>
         <#nested "header">
         <#if displayMessage && message?has_content && (message.type != 'warning' || !isAppInitiatedAction??)>
-            <div class="alert-${message.type} ${properties.kcAlertClass!} pf-m-<#if message.type = 'error'>danger<#else>${message.type}</#if>">
+            <div class="popup-message pf-m-<#if message.type = 'error'>danger<#else>${message.type}</#if>">
                 <div class="pf-c-alert__icon">
-                    <#if message.type = 'success'><span class="${properties.kcFeedbackSuccessIcon!}"></span></#if>
-                    <#if message.type = 'warning'><span class="${properties.kcFeedbackWarningIcon!}"></span></#if>
-                    <#if message.type = 'error'><span class="${properties.kcFeedbackErrorIcon!}"></span></#if>
-                    <#if message.type = 'info'><span class="${properties.kcFeedbackInfoIcon!}"></span></#if>
+                    <#if message.type = 'success'><span class="popup-message"></span></#if>
+                    <#if message.type = 'warning'><span class="popup-message"></span></#if>
+                    <#if message.type = 'error'><span class="popup-message"></span></#if>
+                    <#if message.type = 'info'><span class="popup-message"></span></#if>
                 </div>
-                <span class="${properties.kcAlertTitleClass!}">${kcSanitize(message.summary)}</span>
+                <span class="popup-message">${kcSanitize(message.summary)}</span>
             </div>
         </#if>
                 <#nested "form">

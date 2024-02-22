@@ -350,6 +350,42 @@ body {
     color: #1A1660; /* Cambia colore al passaggio del mouse (blu scuro) */
     border-bottom-color: #1A1660;
 }
+.popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    text-align: center;
+    animation: slideIn 0.5s ease forwards, slideOut 0.5s ease forwards 2s;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -40%);
+    }
+}
+
 
 /* Media Queries per la versione mobile */
 @media screen and (max-width: 600px) {
