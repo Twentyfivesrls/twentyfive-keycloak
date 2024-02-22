@@ -352,6 +352,7 @@ body {
 }
 .popup-message {
     position: fixed;
+    width: 100px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -361,7 +362,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 9999;
     text-align: center;
-    animation: slideIn 0.5s ease forwards, slideOut 0.5s ease forwards 2s;
+    animation: slideIn 0.10s ease forwards, slideOut 0.10s ease forwards 10s;
 }
 
 @keyframes slideIn {
