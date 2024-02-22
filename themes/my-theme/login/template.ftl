@@ -22,12 +22,6 @@
         <#nested "header">
         <#if displayMessage && message?has_content && (message.type != 'warning' || !isAppInitiatedAction??)>
             <div class="popup-message pf-m-<#if message.type = 'error'>danger<#else>${message.type}</#if>">
-                <div class="pf-c-alert__icon">
-                    <#if message.type = 'success'><span class="popup-message"></span></#if>
-                    <#if message.type = 'warning'><span class="popup-message"></span></#if>
-                    <#if message.type = 'error'><span class="popup-message"></span></#if>
-                    <#if message.type = 'info'><span class="popup-message"></span></#if>
-                </div>
                 <span class="popup-message">${kcSanitize(message.summary)}</span>
             </div>
         </#if>
