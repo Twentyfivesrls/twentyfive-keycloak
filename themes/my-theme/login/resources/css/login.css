@@ -395,6 +395,55 @@ body {
     }
 }
 
+.card-expired-link{
+    background-color: #fff;
+    padding: 10px;
+    height: 560px;
+    width: 320px;
+    margin: 50px 0px 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.form-expired-link{
+    margin: 0px 10px 10px 10px;
+    height: fit-content;
+}
+
+.img-expired-link{
+    margin-bottom: -3rem;
+    width: 200px;
+    height: 300px;
+}
+.h2-expired-link{
+    margin-top: 3rem;
+    color: #000000;
+    font-size: 24px;
+}
+.p-expired-link{
+    margin-bottom: 3rem;
+    color: #000000;
+    font-size: 16px;
+}
+.button-expired-link{
+    width: 218px;
+    height: 50px;
+    background-color: #1A1660;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.logo-expired-link {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
 
 /* Media Queries per la versione mobile */
 @media screen and (max-width: 600px) {
