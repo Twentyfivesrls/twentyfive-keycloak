@@ -354,14 +354,22 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: #007bff;
-    color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 9999;
     text-align: center;
     animation: slideIn 0.5s ease forwards, slideOut 0.5s ease forwards 2s;
+}
+
+.popup-message.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.popup-message.error {
+    background-color: #dc3545;
+    color: #fff;
 }
 
 
