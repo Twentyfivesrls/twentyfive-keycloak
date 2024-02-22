@@ -25,7 +25,7 @@
         }
     }
 </script>
-<@layout.registrationLayout displayMessage=!messagesPerField.existsError('password','password-confirm'); section>
+<@layout.registrationLayout displayInfo=false displayMessage=!messagesPerField.existsError('password','password-confirm'); section>
     <#if section = "header">
     <#elseif section = "form">
         <div class="update-password-container">
