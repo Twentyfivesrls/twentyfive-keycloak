@@ -342,12 +342,12 @@ body {
 
 .a-update-password {
     text-decoration: none;
-    color: #1A1660; /* Colore del link (blu) */
-    border-bottom: 1px solid #1A1660; /* Linea sottostante */
+    color: #1A1660;
+    border-bottom: 1px solid #1A1660;
 }
 
 .a-update-password:hover {
-    color: #1A1660; /* Cambia colore al passaggio del mouse (blu scuro) */
+    color: #1A1660;
     border-bottom-color: #1A1660;
 }
 
@@ -364,8 +364,6 @@ body {
     background-color: #28a745;
     color: #fff;
 }
-
-
 
 
 @keyframes slideIn {
