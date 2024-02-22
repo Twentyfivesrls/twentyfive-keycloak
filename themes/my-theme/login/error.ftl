@@ -1,14 +1,9 @@
 <#import "template.ftl" as layout>
 <script>
     function redirectToLogin() {
-        // Modifica l'URL con l'URL della tua pagina di login
-        var loginPageUrl = "url_della_pagina_di_login";
-
-        // Esegui il reindirizzamento alla pagina di login
+        var loginPageUrl = "${url.loginUrl}";
         window.location.href = loginPageUrl;
     }
-
-    // Attacca l'evento click al pulsante "Torna al login"
     document.addEventListener("DOMContentLoaded", function() {
         var backButton = document.querySelector(".button-expired-link");
         if (backButton) {
