@@ -42,9 +42,10 @@
             <div class="clearfix"></div>
         </form>
         </div>
-    <#--<#elseif section = "info" >
+   <#elseif section = "info" >
+        <p>CIAOOOOOO</p>
         <hr />
-        ${msg("emailInstruction")?no_esc}-->
+        ${msg("emailInstruction")?no_esc}
     </#if>
 
 </@layout.registrationLayout>
