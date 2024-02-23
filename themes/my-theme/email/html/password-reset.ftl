@@ -44,7 +44,7 @@
         .logo-email {
             padding-top: 1.5rem;
             display: flex;
-            justify-content: center;
+            justify-content: center !important;
         }
 
         .center-links {
