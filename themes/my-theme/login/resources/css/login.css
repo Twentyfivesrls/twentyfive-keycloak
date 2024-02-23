@@ -487,7 +487,8 @@ body {
 
     .card-expired-link {
         height: fit-content;
-        margin: 115px auto;
+        margin: 150px 135px;
+        width: 300px;
     }
     /* Aggiungi altre regole CSS specifiche per la versione mobile qui */
 }
