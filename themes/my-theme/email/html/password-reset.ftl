@@ -91,7 +91,7 @@
 
 <body>
 <div class="container-email">
-    <div class="logo">
+    <div class="logo" style="justify-content: center">
         <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp"
              width="220px" alt="Logo">
     </div>
