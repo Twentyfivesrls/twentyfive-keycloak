@@ -44,7 +44,6 @@
         .logo {
             padding-top: 1.5rem;
             display: flex;
-            align-items: center;
             justify-content: center;
         }
 

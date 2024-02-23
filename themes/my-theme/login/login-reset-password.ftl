@@ -1,5 +1,4 @@
-<#assign yourConditionToDetectMobile = true> <!-- o qualsiasi altra logica necessaria per rilevare mobile o desktop -->
-
+<#assign yourConditionToDetectMobile = true>
 <#assign isMobile = false>
 <#if yourConditionToDetectMobile>
     <#assign isMobile = true>
