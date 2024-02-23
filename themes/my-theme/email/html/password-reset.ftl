@@ -41,7 +41,7 @@
             color: #ffffff !important;
         }
 
-        .logo {
+        .logo-email {
             padding-top: 1.5rem;
             display: flex;
             justify-content: center;
@@ -76,13 +76,11 @@
 
         .social-icons {
             font-size: 24px;
-            /* Imposta la dimensione delle icone */
         }
 
         .social-icons a {
             color: white;
-            /* Imposta il colore delle icone */
-            /* Aggiunge spazio tra le icone */
+
         }
 
         @media screen and (max-width: 600px) {}
@@ -91,7 +89,7 @@
 
 <body>
 <div class="container-email">
-    <div class="logo" style="justify-content: center">
+    <div class="logo-email" style="justify-content: center">
         <img src="https://www.twentyfive25.it/wp-content/uploads/2023/03/Logo-25-Twentyfive-Top-Nav-Bar.webp"
              width="220px" alt="Logo">
     </div>
