@@ -111,9 +111,9 @@
     </div>
     <!-- Icone social -->
     <div class="social-icons">
-        <a style="color: white" href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i
+        <a style="color: white" href="https://www.facebook.com/twentyfive25.it" target="_blank" class="link"><i
                     class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/twentyfivesrls" target="_blank" class="link"><i
+        <a href="https://www.instagram.com/twentyfive25.it" target="_blank" class="link"><i
                     class="fa fa-instagram"></i></a>
         <a href="https://www.linkedin.com/company/twentyfive25" target="_blank" class="link"><i
                     class="fa fa-linkedin" aria-hidden="true"></i></a>
