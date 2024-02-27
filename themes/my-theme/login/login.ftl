@@ -44,14 +44,13 @@
                     <label class="label-login" for="password" >${msg("password")}</label>
                     <div style="display: flex">
                         <input type="password" id="password" class="input-login" placeholder="${msg("Password")}" name="password" autocomplete="new-password"
-                               aria-invalid="<#if messagesPerField.existsError('password')>true</#if>">
+                               aria-invalid="<#if messagesPerField.existsError('username','password')>true</#if>">
 
                         <label class="visibility" id="v" onclick="togglePassword()">
                             <img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
                     <#if messagesPerField.existsError('username','password')>
                         <span id="input-error" class="invalid-input" aria-live="polite">
-                                    ${kcSanitize(messagesPerField.getFirstError('password'))?no_esc}
                             </span>
                     </#if>
 

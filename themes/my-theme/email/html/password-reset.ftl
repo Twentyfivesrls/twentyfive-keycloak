@@ -45,6 +45,7 @@
             padding-top: 1.5rem;
             display: flex;
             justify-content: center !important;
+            pointer-events: none;
         }
 
         .center-links {
