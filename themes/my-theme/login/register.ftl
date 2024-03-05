@@ -5,6 +5,7 @@
     <#assign isMobile = true>
 </#if>
 
+
 <#import "template.ftl" as layout>
 <script>
     function togglePassword() {

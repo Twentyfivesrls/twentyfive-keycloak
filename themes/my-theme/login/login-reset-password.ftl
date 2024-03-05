@@ -4,6 +4,7 @@
     <#assign isMobile = true>
 </#if>
 
+
 <#import "template.ftl" as layout>
 <@layout.registrationLayout displayInfo=true displayMessage=!messagesPerField.existsError('email'); section>
     <#if section = "header">

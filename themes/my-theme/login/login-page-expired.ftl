@@ -8,4 +8,5 @@
             ${msg("pageExpiredMsg2")} <a id="loginContinueLink" href="${url.loginAction}">${msg("doClickHere")}</a> .
         </p>
     </#if>
+
 </@layout.registrationLayout>

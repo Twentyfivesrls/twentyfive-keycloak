@@ -12,6 +12,7 @@
             });
         }
     });
+
 </script>
 
 <@layout.registrationLayout displayMessage=false; section>

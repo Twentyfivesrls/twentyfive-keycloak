@@ -24,6 +24,7 @@
             visibilityIcon.src = "${url.resourcesPath}/img/eye-off.png";
         }
     }
+
 </script>
 <@layout.registrationLayout displayInfo=false displayMessage=!messagesPerField.existsError('password','password-confirm'); section>
     <#if section = "header">

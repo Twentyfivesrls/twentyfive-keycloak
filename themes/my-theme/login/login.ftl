@@ -88,6 +88,7 @@
                                                         <img src="${url.
                                                         resourcesPath}/img/2023_Facebook_icon 1.svg" alt="Facebook Icon" width="25" height="25">
                                                         <span>Accedi con Facebook</span>
+
                                             </button>
                                     </#if>
                                 </#if>
